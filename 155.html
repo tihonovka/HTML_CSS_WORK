@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rugalmas Dobozok</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+
+.külső-doboz {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: aquamarine;
+    border: 5px solid cadetblue;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+.doboz {
+    background-color: bisque;
+    border: 3px solid burlywood;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 200px; 
+    text-align: center;
+    font-size: 1.2em;
+}
+    </style>
+</head>
+<body>
+    <div class="külső-doboz">
+        <div class="doboz">1. Doboz</div>
+        <div class="doboz">2. Doboz</div>
+        <div class="doboz">3. Doboz</div>
+        <div class="doboz">4. Doboz</div>
+    </div>
+</body>
+</html
